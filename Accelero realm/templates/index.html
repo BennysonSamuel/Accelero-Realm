@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastest Cars in the World</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li id="scrolldown"><a>Cars</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="bangers-regular">
+        <h1>Accelero Realm</h1>
+        </div>
+        
+        <div class="speed-container">
+            <section class="speed-section">
+                <p>Explore the ultimate speed machines, tearing through the wind, defying the horizon, and leaving the world behind in their wake.</p>
+            </section>
+            
+            <section class="speed-section">
+                <p>Whether it's the Bugatti Chiron Super Sport breaking speed barriers, the Hennessey Venom F5 pushing aerodynamic boundaries, or the Koenigsegg Jesko setting records, each masterpiece is a testament to precision and passion.</p>
+            </section>
+
+            <section class="speed-section">
+                <p>Get ready to explore the world where 0 to 100 km/h is achieved in a blink, and top speeds soar past 400 km/h, challenging the very essence of motion. These speed demons aren't just cars - they are symbols of power, luxury, and adrenaline.</p>
+            </section>
+        </div>
+    </main>
+<h1 class="bangers-regularp">Explore Now!</h1>
+    <div class="btn" id="scrollButton">
+        
+        <button type="button">
+            <img src="/static/start.jpg" alt="Explore Now!">
+          
+        </button>
+        
+    </div>
+
+    
+
+    <div class="car-list">
+        <div class="car-card" id="firstCard">
+            <div class="car-left">
+                <h3>1. Koenigsegg Jesko Absolut</h3>
+                <img src="/static/koenigsegg.jpg" alt="Koenigsegg Jesko Absolut">
+                <p>Top Speed: 531 km/h (theoretical)</p>
+            </div>
+            <div class="car-right">
+                <h3>"The Koenigsegg Jesko Absolut is a pinnacle of automotive engineering, designed to achieve extraordinary speeds while maintaining a sleek and aerodynamic silhouette. With its innovative technology, lightweight construction, and unparalleled precision, this hypercar redefines performance and pushes the boundaries of modern design. A true masterpiece for speed enthusiasts, the Jesko Absolut is all about breaking records and delivering an unforgettable driving experience."</h3>
+            </div>
+        </div>
+    </div>
+  
+
+
+    <div class="car-list">
+        <div class="car-card">
+            <div class="car-left">
+            <h3>2. Bugatti Chiron Super Sport 300+</h3>
+            <img src="/static/bugatti.jpg" alt="Bugatti Chiron">
+            <p>Top Speed: 490 km/h</p>
+            </div>
+            <div class="car-right">
+                <h3>"The Bugatti Chiron Super Sport is a marvel of modern engineering, blending breathtaking speed with unrivaled luxury. Designed for those who crave performance and elegance, this hypercar features a streamlined body optimized for aerodynamics and stability at extraordinary speeds. Its quad-turbocharged engine delivers immense power, making it a true masterpiece in the world of speed and innovation. With its exquisite craftsmanship and cutting-edge technology, the Chiron Super Sport isn’t just a car—it’s an experience that redefines the limits of automotive excellence."</h3>
+            </div>
+        </div>
+    </div>
+        
+    <div class="car-list">
+        <div class="car-card">
+            <div class="car-left">
+                <h3>3. Koenigsegg Agera RS</h3>
+                <img src="/static/Koenigsegg Agera RS.jpg" alt="Koenigsegg Agera RS">
+                <p>Top Speed: 447 km/h</p>
+            </div>
+            <div class="car-right">
+                <h3>The Koenigsegg Agera RS is a marvel of automotive engineering, built for extreme speed and precision. With its lightweight design, advanced aerodynamics, and powerhouse engine, it sets new standards in performance. This hypercar blends cutting-edge technology with extraordinary craftsmanship, delivering an unparalleled driving experience for those who crave the ultimate in speed and innovation.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="car-list">
+        <div class="car-card">
+            <div class="car-left">
+                <h3>4. Hennessey Venom GT</h3>
+            <img src="/static/Hennessey Venom GT.jpg" alt="Hennessey Venom GT">
+            <p>Top Speed: 435 km/h</p>
+            </div>
+            <div class="car-right">
+                <h3>"The Hennessey Venom GT is a high-performance hypercar that pushes the limits of speed and engineering. With its lightweight carbon fiber body and a twin-turbocharged V8 engine, it delivers mind-blowing acceleration and top speeds. Designed for thrill-seekers and performance enthusiasts, the Venom GT combines cutting-edge technology, aerodynamics, and unparalleled power to offer an unforgettable driving experience. Its sleek design and raw power make it a true icon in the world of hypercars.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="car-list">
+        <div class="car-card">
+            <div class="car-left">
+                <h3>5. Bugatti Veyron Super Sport</h3>
+                <img src="/static/Bugatti Veyron Super Sport.jpg" alt="Bugatti Veyron Super Sport">
+                <p>Top Speed: 431 km/h</p>
+            </div>
+            <div class="car-right">
+                <h3>The Bugatti Veyron Super Sport is a groundbreaking hypercar that set new standards for speed, luxury, and engineering excellence. Powered by an 8.0-liter quad-turbocharged W16 engine, it delivers astonishing acceleration and once held the title of the world's fastest production car. Its aerodynamic design, advanced technology, and unparalleled craftsmanship make it a masterpiece of performance and prestige. The Veyron Super Sport is not just a car—it's a statement of innovation and power.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="car-list">
+        <div class="car-card">
+            <div class="car-left">
+                <h3>6. Bugatti Chiron (Standard)</h3>
+            <img src="/static/Bugatti Chiron (Standard).webp" alt="Bugatti Chiron (Standard)">
+            <p>Top Speed: 420 km/h</p>
+            </div>
+            <div class="car-right">
+                <h3>The Bugatti Chiron is a masterpiece of engineering, blending unparalleled luxury with breathtaking performance. Powered by an 8.0-liter quad-turbocharged W16 engine producing 1,479 horsepower, it boasts a top speed electronically limited to 261 mph (420 km/h). The Chiron combines cutting-edge aerodynamics with meticulous craftsmanship, featuring a sleek, muscular design that epitomizes modern hypercar elegance. With its refined interior and innovative technology, the Chiron delivers a driving experience that is both exhilarating and opulent, setting new standards in the world of automotive excellence.</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="car-list">
+        <div class="car-card">
+            <div class="car-left">
+                <h3>7. Rimac Nevera</h3>
+            <img src="/static/Rimac Nevera.avif" alt="Rimac Nevera">
+            <p>Top Speed: 412 km/h</p>
+            </div>
+            <div class="car-right">
+                <h3>The Rimac Nevera is an all-electric hypercar that redefines the limits of performance and technology. Boasting a staggering 1,914 horsepower from its four electric motors, it accelerates with unmatched precision, making it one of the fastest production cars ever. Its cutting-edge battery technology, advanced aerodynamics, and exquisite craftsmanship combine to deliver a driving experience that is both sustainable and thrilling. The Nevera embodies the future of speed, proving that electric power can rival and surpass traditional supercar benchmarks.</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="car-list">
+        <div class="car-card">
+            <div class="car-left">
+                <h3>7. SSC Ultimate Aero</h3>
+                <img src="/static/SSC Ultimate Aero.jpg" alt="SSC Ultimate Aero">
+                <p>Top Speed: 412 km/h</p>
+            </div>
+            <div class="car-right">
+                <h3>The SSC Ultimate Aero is an American-made hypercar that once held the title of the world's fastest production car. Powered by a twin-turbocharged V8 engine delivering over 1,280 horsepower, it achieved a record-breaking top speed of 256 mph (412 km/h). Designed with lightweight construction and a focus on raw performance, the Ultimate Aero balances aerodynamic efficiency with bold, aggressive styling. Its legacy as a speed icon cements its place among the elite in automotive history, showcasing American engineering at its finest.</h3>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="car-list">
+        <div class="car-card">
+            <div class="car-left">
+            <h3>9. McLaren Speedtail</h3>
+            <img src="/static/McLaren Speedtail.jpg" alt="McLaren Speedtail">
+            <p>Top Speed: 403 km/h</p>
+            </div>
+            <div class="car-right">
+                <h3>The McLaren Speedtail is a masterpiece of innovation and elegance, blending cutting-edge aerodynamics with hybrid technology. As McLaren’s fastest car, it achieves a top speed of 403 km/h (250 mph) while maintaining a sleek, futuristic design. Its central driving position, flanked by two passenger seats, harks back to the iconic F1 while offering a unique cockpit experience. With 1,055 horsepower delivered through its hybrid powertrain, the Speedtail represents the perfect harmony of luxury, speed, and advanced engineering, redefining what it means to be a hyper-GT.</h3>
+            </div>
+        </div>
+    </div>
+
+        <div class="car-list">
+        <div class="car-card">
+            <div class="car-left">
+            <h3>10. Koenigsegg Regera</h3>
+            <img src="/static/Koenigsegg Regera.jpeg" alt="Koenigsegg Regera">
+            <p>Top Speed: 400 km/h</p>
+            </div>
+            <div class="car-right">
+                <h3>The Koenigsegg Regera is a groundbreaking hypercar that blends immense power with refined luxury. Powered by a hybrid drivetrain combining a 5.0-liter twin-turbo V8 engine and three electric motors, it produces an astonishing 1,500+ horsepower. The Regera's innovative Direct Drive system eliminates the traditional gearbox, ensuring seamless acceleration from 0 to 400 km/h in just 20 seconds. With its elegant design, advanced aerodynamics, and unparalleled craftsmanship, the Regera delivers a driving experience that is as exhilarating as it is sophisticated—a true testament to Koenigsegg's vision of performance and innovation.</h3>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+    <div class="car-list">
+        <div class="car-card">
+            <div class="car-left">
+                <h3>Bonus: Thrust SSC</h3>
+                <img src="/static/Thrust SSC.jpg" alt="Koenigsegg Regera">
+                <p>Top Speed: 1,228 km/h</p>
+                </div>
+                <div class="car-right">
+                    <h3>The Thrust SSC jet car reached a top speed of 763 miles per hour (1,228 km/h) on October 15, 1997. This set the world land speed record and made the Thrust SSC the first and only land vehicle to break the sound barrier. 
+                        Explanation
+                        The Thrust SSC was driven by Royal Air Force pilot Andy Green. 
+                        It was developed by Richard Noble, Glynne Bowsher, Ron Ayers, and Jeremy Bliss. 
+                        It broke the previous record of 634 mph set by Richard Noble in 1983. 
+                        Currently the Thrust SSC is on display at the Coventry Transport Museum.    
+                        </h3>
+                </div>
+            </div>
+        </div>
+
+ 
+
+<footer>
+    <div class="footer-content">
+        <p>Follow me on:</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/nature_lover_07_/" target="_blank">
+                <img src="/static/instagram-icon.webp" alt="Instagram" title="Instagram">
+            </a>
+            <a href="https://github.com/BennysonSamuel" target="_blank">
+                <img src="/static/github-icon.png" alt="GitHub" title="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/bennyson-samuel-1a3276274/" target="_blank">
+                <img src="/static/linkedin-icon.png" alt="LinkedIn" title="LinkedIn">
+            </a>
+        </div>
+    </div>
+    <p>&copy; 2025 Bennyson Samuel. All rights reserved.</p>
+</footer>
+
+    <script>
+        document.getElementById('scrollButton').addEventListener('click', function () {
+            const target = document.getElementById('firstCard');
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+        document.getElementById('scrolldown').addEventListener('click', function () {
+            const target = document.getElementById('firstCard');
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+    </script>
+    
+
+     
+</body>
+</html>
